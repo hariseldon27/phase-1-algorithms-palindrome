@@ -1,9 +1,17 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  const backWord = word.toLowerCase().split("").reverse().join("") 
+  console.log(backWord)
+  if (backWord === word) {
+    return true
+  } else {
+    return false
+  }
 }
 
 /* 
-  Add your pseudocode here
+take single input word, convert to
+
+
 */
 
 /*
